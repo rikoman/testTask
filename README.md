@@ -20,7 +20,7 @@
 6) После успешного запуска контейнера создайте новое окно терминала и пропишите команду docker ps чтобы узнать id контейнера (CONTAINER ID)
 ![Screenshot](https://github.com/rikoman/testTask/blob/main/images/containerId.png)
 8) После того как узнали id пропишите docker inspect id чтобы узнать на каком адресе запущен контейнер (NetworkSetting - Networks - bridge - IPAddress: 172.17.0.2 - в моем случае)
-![Screenshot](https://github.com//rikoman/testTask/blob/main/images/IPAddres.png)
+![Screenshot](https://github.com/rikoman/testTask/blob/main/images/IPAddres.png)
 10) Переходим по адресу контейнера и добавляем :8080 ( в моем случае id контейнера http://172.17.0.2 и я добавляю :8080 и получается http://172.17.0.2:8080)
 11) Для проверки можно использовать браузер, просто прописав http://172.17.0.2:8080. Будет выведен интерфейс с вводом текста и кнопка которая будет отправлять текст на сервер
 ![Screenshot](https://github.com/rikoman/testTask/blob/main/images/browser.png)
